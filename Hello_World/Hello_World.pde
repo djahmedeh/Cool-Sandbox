@@ -2,7 +2,7 @@ println("Hello World");
 String firstSentence = "You Said Hello!";
 String secondSentence = "Mr. Mercer counts to 10, by 1.";
 //println(firstSentence);
-println(secondSentence);
+//println(secondSentence);
 //
 //Concatenation
 char x = '!';
