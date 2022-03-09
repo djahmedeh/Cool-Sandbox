@@ -1,6 +1,6 @@
 //Global Variables
 char y;
-char z;
+String z;
 String d;
 String e;
 String f;
@@ -14,23 +14,24 @@ void setup()
 {
  String secondSentence = "Mr. Mercer counts to 10, by 1."; //Local Variable
  //println(secondSentence);
- char y = ',';
- char z = '.';
- String d = "Mr";
- String e = "Mercer";
- String f = "counts";
- String g = "to";
- String ten = "10";
- String h = "by";
- String one = "1";
- int two = 1;
+ //Population, Declaring, Valuing
+  y = ',';
+  z = ".";
+  d = "Mr";
+  e = "Mercer";
+  f = "counts";
+  g = "to";
+  ten = "10";
+  h = "by";
+  one = "1";
+  two = 1;
  println( d+z, e, f, g, ten+y, h, int(one)+two+z); //Casting, making a STRING into a INTEGER
  println( "One plus two is", one+two );
 }//End setup
 //
 void draw()
 {
-  println( d+z, e, f, g, ten+y, h, int(one)+two+z);
+  println( d+z, e, f, g, ten+y, h, two+z);
 }//End draw
 //
 void keyPressed() {
